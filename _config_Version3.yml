@@ -1,0 +1,9 @@
+title: "Manuskrip Perubatan Melayu"
+description: "Kompendium kecil rawatan tradisional Melayu — dokumentasi budaya (bukan nasihat perubatan)."
+baseurl: ""    # kosong untuk GitHub Pages root
+url: "https://huzaifaha31.github.io"  # gantikan dengan URL anda jika mahu
+collections:
+  manuscripts:
+    output: true
+    permalink: /:collection/:name/
+markdown: kramdown

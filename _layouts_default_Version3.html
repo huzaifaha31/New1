@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ms">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <p class="tagline">Dokumentasi tradisi — bukan nasihat perubatan moden.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>Hakcipta — Kompendium budaya. Jika simptom serius, dapatkan khidmat profesional kesihatan.</small>
+    </div>
+  </footer>
+</body>
+</html>

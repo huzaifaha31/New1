@@ -1,0 +1,13 @@
+---
+---
+{% capture back_link %}
+<a href="{{ '/' | relative_url }}">&larr; Kembali ke Indeks</a>
+{% endcapture %}
+<div class="manuscript">
+  <p class="backlink">{{ back_link | raw }}</p>
+  <h2>{{ page.title }}</h2>
+  <article>
+    {{ content }}
+  </article>
+  <p class="meta">Format tradisi — rujuk nota keselamatan di bawah setiap manuskrip.</p>
+</div>
